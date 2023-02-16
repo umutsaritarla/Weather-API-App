@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Pacifico&family=Poppins:wght@400;700;900&display=swap');
+
+/* Main Style Codes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+html {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Container */
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    margin-top: 30px;
+}
+
+#weather-app-input {
+    outline: none;
+    border: 1px solid black;
+    width: 50rem;
+    padding: 7px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+#weather-app-button {
+    width: 5rem;
+    padding: 8px;
+}
+
+/* Info Container*/
+.weather-info-container{
+    display: flex;
+    text-align: left;
+    margin-top: 13rem;
+}
+
+.info-ul li {
+    margin-top: 15px;
+    font-size: 2rem;
+    margin-left: 5rem;
+}
